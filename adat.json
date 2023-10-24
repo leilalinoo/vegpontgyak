@@ -1,0 +1,12 @@
+{
+    "nevek" : [
+        {
+            "nev": "Bambi",
+            "szul" : 1111
+        },
+        {
+            "nev": "Danda",
+            "szul" : 1888
+        }
+    ]
+}

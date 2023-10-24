@@ -1,0 +1,22 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  margin: 10px;
+  width: 100%;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+.valid{
+  color: purple;
+}
+.invalid{
+color: red;
+}
+.lathato{
+  display: none;
+}
