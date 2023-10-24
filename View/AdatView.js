@@ -5,7 +5,7 @@ class AdatView {
   constructor(lista, szuloElem, leiro) {
     this.#lista = lista;
     this.#leiro = leiro;
-    szuloElem.append(`<table class= table table-striped table-bordered >`);
+    szuloElem.append(`<table class= "table table-bordered table-striped  ">`);
     this.tablaElem = szuloElem.children("table");
     this.tarolo = szuloElem.children("table");
     this.megjelenit();
