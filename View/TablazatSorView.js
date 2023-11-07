@@ -5,7 +5,7 @@ class TablazatSorView {
     this.tablaElem = szuloElem;
     this.#sor();
     this.index = index;
-    this.sorElem = this.tablaElem.children("tr:last-child");
+    this.sorElem = this.tablaElem.children("tbody").children("tr:last-child");
     this.pipaElem = this.sorElem.children("td").children(".kesz");
     this.megseElem = this.sorElem.children("td").children(".megse").hide();
     this.torolElem = this.sorElem.children("td").children(".torol");
